@@ -5,10 +5,10 @@ function App() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const items = [
-    {img: "/images/nav-1.svg", text: "30-DAY SATISFACTION GUARANTEE"},
-    {img: "/images/nav-2.svg", text: "Free delivery on orders over $40.00"},
-    {img: "/images/nav-3.svg", text: "50.000+ HAPPY CUSTOMERS"},
-    {img: "/images/nav-4.svg", text: "100% Money Back Guarantee"}
+    {img: "images/nav-1.svg", text: "30-DAY SATISFACTION GUARANTEE"},
+    {img: "images/nav-2.svg", text: "Free delivery on orders over $40.00"},
+    {img: "images/nav-3.svg", text: "50.000+ HAPPY CUSTOMERS"},
+    {img: "images/nav-4.svg", text: "100% Money Back Guarantee"}
   ];
 
   const prevItem = () => {
