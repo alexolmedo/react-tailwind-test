@@ -4,20 +4,27 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <nav className="bg-gray-custom text-white h-[50px]">
+        <div className="max-w-screen-xl flex justify-around mx-auto uppercase h-full text-[12px]">
+          <div className="flex items-center">
+            <img src="/images/nav-1.svg" alt="Description" className="mr-2"></img>
+            <p>30-DAY SATISFACTION GUARANTEE</p>
+          </div>
+          <div className="flex items-center">
+            <img src="/images/nav-2.svg" alt="Description" className="mr-2"></img>
+            <p>Free delivery on orders over $40.00</p>
+          </div>
+          <div className="flex items-center">
+            <img src="/images/nav-3.svg" alt="Description" className="mr-2"></img>
+            <p>50.000+ HAPPY CUSTOMERS</p>
+          </div>
+          <div className="flex items-center">
+            <img src="/images/nav-4.svg" alt="Description" className="mr-2"></img>
+            <p>100% Money Back Guarantee</p>
+          </div>
+
+        </div>
+      </nav>
     </div>
   );
 }
