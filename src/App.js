@@ -25,7 +25,7 @@ function App() {
         <div className="max-w-screen-xl flex justify-between lg:justify-around  mx-auto uppercase h-full text-[12px]">
           {/* Arrows (visible on mobile) */}
           <div onClick={prevItem} className="lg:hidden flex items-center ml-3">
-            <img src="/images/arrow-left.svg" alt=""/>
+            <img src="images/arrow-left.svg" alt=""/>
           </div>
 
           {items.map((item, index) => (
@@ -37,7 +37,7 @@ function App() {
 
           {/* Arrows (visible on mobile) */}
           <div onClick={nextItem} className="lg:hidden flex items-center mr-3">
-            <img src="/images/arrow-right.svg" alt=""/>
+            <img src="images/arrow-right.svg" alt=""/>
           </div>
         </div>
       </nav>
