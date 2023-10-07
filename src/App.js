@@ -65,7 +65,7 @@ function App() {
           </p>
         </div>
 
-        <div className="flex justify-between pt-12 text-[20px]">
+        <div className="flex justify-between py-12 text-[20px]">
 
           <div className="flex items-center">
             <img className="h-[20px] lg:h-[40px]" src="./images/step-1.png" alt=""/>
@@ -95,6 +95,45 @@ function App() {
             </p>
           </div>
 
+        </div>
+
+        <div className="bg-gray-200 p-8 rounded-xl">
+          <div className="flex">
+            <div className="w-1/2">
+              <div>
+                <img src="./images/satisfaction_guarantee.png" alt=""/>
+              </div>
+
+              <div className="bg-white p-6 mt-6 rounded-xl">
+
+                <div className="flex items-center">
+                  <img className="h-[48px]" src="./images/pic-review.png" alt=""/>
+                  <div className="ml-4">
+                    <img className="h-[12px]" src="./images/icon-stars.png" alt=""/>
+                    <div className="flex items-center mt-1">
+                      <div className="font-bold font text-[14px]">
+                        Ken T.
+                      </div>
+                      <img className="h-[16px] mx-3" src="./images/icon-verified.png" alt=""/>
+                      <div className="text-green-verified text-[12px]">
+                        Verified Customer
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  “As soon as the Clarifions arrived I put one in my bedroom. This was late in the afternoon. When I
+                  went to the bedroom in the evening it smelled clean. When I went to bed I felt I could breathe better.
+                  Wonderful.”
+                </div>
+              </div>
+
+            </div>
+            <div className="w-1/2 bg-blue-300 p-4">
+              Right half
+            </div>
+          </div>
         </div>
 
       </div>
