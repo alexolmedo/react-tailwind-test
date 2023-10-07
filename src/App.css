@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Manrope&display=swap');
 
-nav {
+body {
   font-family: 'Manrope', sans-serif;
 }
 
 nav img {
-  width: 18.2px;
+  width: 20px;
 }
