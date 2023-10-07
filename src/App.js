@@ -97,7 +97,7 @@ function App() {
 
         </div>
 
-        <div className="bg-gray-200 p-8 rounded-xl">
+        <div className="bg-gray-background p-10 rounded-xl">
           <div className="flex">
             <div className="w-1/2">
               <div>
@@ -130,9 +130,54 @@ function App() {
               </div>
 
             </div>
-            <div className="w-1/2 bg-blue-300 p-4">
-              Right half
+
+            <div className="w-1/2 pl-10">
+
+              <div className="text-[32px]">
+                <span className="text-blue-highlight">ONE TIME ONLY</span> special price for 6 extra Clarifion for
+                only <span className="text-blue-highlight">$14 each</span> ($84.00 total!)
+              </div>
+
+              <div className="flex mt-4 items-center">
+                <img className="h-[134px]" src="./images/icon-clarifion-air-purifier.png" alt=""/>
+
+                <div className="grow pl-6">
+
+                  <div className="flex justify-between items-center pb-1">
+                    <div className="text-[20px]">
+                      Clarifion Air Ionizer
+                    </div>
+                    <div className="flex items-center ">
+                      <span className="text-[16px] text-gray-crossed line-through mr-2">
+                        $180
+                      </span>
+                      <span className="text-[22px] text-blue-highlight font-semibold">
+                        $84
+                      </span>
+                    </div>
+                  </div>
+
+                  <div>
+                    <img className="h-[18px]" src="./images/icon-stars.png" alt=""/>
+                  </div>
+
+                  <div className="flex items-center py-2">
+                    <img className="h-[16px] hover:cursor-pointer" src="./images/radio-button.png" alt=""/>
+                    <div className="ml-4 text-black-stock">
+                      12 left in Stock
+                    </div>
+                  </div>
+
+                  <div className="text-black-copy">
+                    Simply plug a Clarifion into any standard outlet and replace bulky, expensive air purifiers with a
+                    simple.
+                  </div>
+                </div>
+
+              </div>
+
             </div>
+
           </div>
         </div>
 

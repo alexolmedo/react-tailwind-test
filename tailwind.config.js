@@ -7,7 +7,12 @@ module.exports = {
     extend: {
       colors: {
         'gray-custom': '#252F3D',
+        'gray-background': '#FAFAFA',
+        'gray-crossed': '#969696',
+        'black-stock': '#37465A',
+        'black-copy': '#4D5254',
         'green-verified': '#5BB59A',
+        'blue-highlight': '#2C7EF8',
       }
     },
   },
