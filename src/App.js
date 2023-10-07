@@ -22,7 +22,7 @@ function App() {
   return (
     <div className="App">
       <nav className="bg-gray-custom text-white h-[50px]">
-        <div className="max-w-screen-xl flex justify-between  mx-auto uppercase h-full text-[12px]">
+        <div className="max-w-screen-xl flex justify-between mx-auto uppercase h-full text-[12px]">
 
           {/* Arrows (visible on mobile) */}
           <div onClick={prevItem} className="lg:hidden flex items-center ml-3">
@@ -215,12 +215,45 @@ function App() {
                 <img className="ml-3 w-[16px]" src="./images/icon-arrow.svg" alt=""/>
               </div>
 
+              <div className="text-red-warning uppercase text-center text-[18px] my-6 underline hover:cursor-pointer">
+                No thanks, I don’t want this.
+              </div>
+
+              <div className="flex items-center">
+                <img src="./images/icon-satisfaction-guarantee.png" alt="Satisfaction 100% Guarantee"
+                     className="h-[88px]"/>
+                <div className="pl-6">
+                  If you are not completely thrilled with your Clarifion - We have a <span className="font-bold">30 day satisfaction guarantee</span>.
+                  Please refer to our return policy at the bottom of the page for more details. Happy Shopping!
+                </div>
+              </div>
+
             </div>
 
           </div>
         </div>
 
       </div>
+
+      <footer className="bg-gray-custom text-white h-[88px]">
+        <div className="max-w-screen-xl mx-auto flex justify-between items-center h-full">
+          <div className="flex items-center">
+            <div>
+              Copyright (c) 2023
+            </div>
+            <img className="h-[24px] mx-4" src="./images/vertical-line.png" alt=""/>
+            <div>
+              Clarifionsupport@clarifion.com
+            </div>
+          </div>
+          <div className="flex items-center">
+            <img className="h-[16px]" src="./images/icon-encryption.png" alt=""/>
+            <div className="ml-3">
+              Secure 256-bit SSL encryption.
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }

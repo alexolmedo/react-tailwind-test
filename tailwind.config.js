@@ -15,6 +15,7 @@ module.exports = {
         'green-claim': '#59AE43',
         'blue-highlight': '#2C7EF8',
         'light-blue-background': '#EDF3FD',
+        'red-warning': '#F82C2C',
       }
     },
   },
