@@ -13,6 +13,7 @@ module.exports = {
         'black-copy': '#4D5254',
         'green-verified': '#5BB59A',
         'blue-highlight': '#2C7EF8',
+        'light-blue-background': '#EDF3FD',
       }
     },
   },

@@ -138,7 +138,7 @@ function App() {
                 only <span className="text-blue-highlight">$14 each</span> ($84.00 total!)
               </div>
 
-              <div className="flex mt-4 items-center">
+              <div className="flex mt-5 items-center">
                 <img className="h-[134px]" src="./images/icon-clarifion-air-purifier.png" alt=""/>
 
                 <div className="grow pl-6">
@@ -147,7 +147,7 @@ function App() {
                     <div className="text-[20px]">
                       Clarifion Air Ionizer
                     </div>
-                    <div className="flex items-center ">
+                    <div className="flex items-center">
                       <span className="text-[16px] text-gray-crossed line-through mr-2">
                         $180
                       </span>
@@ -172,6 +172,38 @@ function App() {
                     Simply plug a Clarifion into any standard outlet and replace bulky, expensive air purifiers with a
                     simple.
                   </div>
+                </div>
+
+              </div>
+
+              <div className="py-8">
+                <div className="flex items-center">
+                  <img className="h-[22px]" src="./images/tick-mark.png" alt=""/>
+                  <div className="ml-4">
+                    Negative Ion Technology may <span className="font-bold">help with allergens</span>
+                  </div>
+                </div>
+
+                <div className="flex items-center py-5">
+                  <img className="h-[22px]" src="./images/tick-mark.png" alt=""/>
+                  <div className="ml-4">
+                    Designed for <span className="font-bold">air rejuvenation</span>
+                  </div>
+                </div>
+
+                <div className="flex items-center">
+                  <img className="h-[22px]" src="./images/tick-mark.png" alt=""/>
+                  <div className="ml-4">
+                    <span className="font-bold">Perfect for every room</span> in all types of places.
+                  </div>
+                </div>
+              </div>
+
+              <div className="rounded-xl bg-light-blue-background flex p-4">
+                <img className="h-[24px]" src="./images/icon-percentage.png" alt=""/>
+                <div className="ml-4">
+                  Save <span className="text-blue-highlight">53%</span> and get <span className="text-blue-highlight">6 extra Clarifision</span> for
+                  only <span className="text-blue-highlight">$14 Each</span>.
                 </div>
 
               </div>
