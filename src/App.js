@@ -176,7 +176,7 @@ function App() {
 
               </div>
 
-              <div className="py-8">
+              <div className="mt-8">
                 <div className="flex items-center">
                   <img className="h-[22px]" src="./images/tick-mark.png" alt=""/>
                   <div className="ml-4">
@@ -199,13 +199,20 @@ function App() {
                 </div>
               </div>
 
-              <div className="rounded-xl bg-light-blue-background flex p-4">
+              <div className="rounded-xl bg-light-blue-background flex p-4 my-8">
                 <img className="h-[24px]" src="./images/icon-percentage.png" alt=""/>
                 <div className="ml-4">
                   Save <span className="text-blue-highlight">53%</span> and get <span className="text-blue-highlight">6 extra Clarifision</span> for
                   only <span className="text-blue-highlight">$14 Each</span>.
                 </div>
+              </div>
 
+              <div
+                className="bg-green-claim rounded-full h-[59px] flex items-center justify-center text-white uppercase hover:cursor-pointer">
+                <div className="font-bold text-[20px]">
+                  Yes - Claim my discount
+                </div>
+                <img className="ml-3 w-[16px]" src="./images/icon-arrow.svg" alt=""/>
               </div>
 
             </div>

@@ -12,6 +12,7 @@ module.exports = {
         'black-stock': '#37465A',
         'black-copy': '#4D5254',
         'green-verified': '#5BB59A',
+        'green-claim': '#59AE43',
         'blue-highlight': '#2C7EF8',
         'light-blue-background': '#EDF3FD',
       }
