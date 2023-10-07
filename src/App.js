@@ -5,10 +5,10 @@ function App() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const items = [
-    {img: "/images/nav-1.svg", text: "30-DAY SATISFACTION GUARANTEE"},
-    {img: "/images/nav-2.svg", text: "Free delivery on orders over $40.00"},
-    {img: "/images/nav-3.svg", text: "50.000+ HAPPY CUSTOMERS"},
-    {img: "/images/nav-4.svg", text: "100% Money Back Guarantee"}
+    {img: "./images/nav-1.svg", text: "30-DAY SATISFACTION GUARANTEE"},
+    {img: "./images/nav-2.svg", text: "Free delivery on orders over $40.00"},
+    {img: "./images/nav-3.svg", text: "50.000+ HAPPY CUSTOMERS"},
+    {img: "./images/nav-4.svg", text: "100% Money Back Guarantee"}
   ];
 
   const prevItem = () => {
@@ -25,7 +25,7 @@ function App() {
         <div className="max-w-screen-xl flex justify-between  mx-auto uppercase h-full text-[12px]">
           {/* Arrows (visible on mobile) */}
           <div onClick={prevItem} className="lg:hidden flex items-center ml-3">
-            <img src="/images/arrow-left.svg" alt=""/>
+            <img src="./images/arrow-left.svg" alt=""/>
           </div>
 
           {items.map((item, index) => (
@@ -37,7 +37,7 @@ function App() {
 
           {/* Arrows (visible on mobile) */}
           <div onClick={nextItem} className="lg:hidden flex items-center mr-3">
-            <img src="/images/arrow-right.svg" alt=""/>
+            <img src="./images/arrow-right.svg" alt=""/>
           </div>
         </div>
       </nav>
@@ -46,11 +46,11 @@ function App() {
 
         <div className="flex justify-between">
           <div>
-            <img src="/images/icon-clarifion.png" alt="Clarifion Icon" className="h-[32px]"/>
+            <img src="./images/icon-clarifion.png" alt="Clarifion Icon" className="h-[32px]"/>
           </div>
           <div className="flex">
-            <img src="/images/icon-mc-afee.png" alt="McAfee Secure Icon" className="h-[32px] mr-6"/>
-            <img src="/images/icon-norton.png" alt="Norton by Symantex Icon" className="h-[32px]"/>
+            <img src="./images/icon-mc-afee.png" alt="McAfee Secure Icon" className="h-[32px] mr-6"/>
+            <img src="./images/icon-norton.png" alt="Norton by Symantex Icon" className="h-[32px]"/>
           </div>
         </div>
 
