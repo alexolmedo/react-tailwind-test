@@ -23,6 +23,7 @@ function App() {
     <div className="App">
       <nav className="bg-gray-custom text-white h-[50px]">
         <div className="max-w-screen-xl flex justify-between  mx-auto uppercase h-full text-[12px]">
+
           {/* Arrows (visible on mobile) */}
           <div onClick={prevItem} className="lg:hidden flex items-center ml-3">
             <img src="./images/arrow-left.svg" alt=""/>
@@ -39,6 +40,7 @@ function App() {
           <div onClick={nextItem} className="lg:hidden flex items-center mr-3">
             <img src="./images/arrow-right.svg" alt=""/>
           </div>
+
         </div>
       </nav>
 
@@ -61,6 +63,38 @@ function App() {
           <p className="text-[24px]">
             Lorem ipsum dolor sit amet, consectetur adipiscing
           </p>
+        </div>
+
+        <div className="flex justify-between pt-12 text-[20px]">
+
+          <div className="flex items-center">
+            <img className="h-[20px] lg:h-[40px]" src="./images/step-1.png" alt=""/>
+            <p className="lg:ml-4">
+              <span>Step 1 : </span>Cart Review
+            </p>
+          </div>
+
+          <div className="flex items-center">
+            <img className="h-[20px] lg:h-[40px]" src="./images/step-2.png" alt=""/>
+            <p className="lg:ml-4">
+              <span>Step 2 : </span>Checkout
+            </p>
+          </div>
+
+          <div className="flex items-center">
+            <img className="h-[20px] lg:h-[40px]" src="./images/step-3.png" alt=""/>
+            <p className="lg:ml-4 font-bold">
+              <span>Step 3 : </span>Special Offer
+            </p>
+          </div>
+
+          <div className="flex items-center">
+            <img className="h-[20px] lg:h-[40px]" src="./images/step-4.png" alt=""/>
+            <p className="lg:ml-4">
+              <span>Step 4 : </span>Confirmation
+            </p>
+          </div>
+
         </div>
 
       </div>
