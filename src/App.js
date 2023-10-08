@@ -215,6 +215,10 @@ function App() {
                 <img className="ml-3 w-[16px]" src="./images/icon-arrow.svg" alt=""/>
               </div>
 
+              <div className="tex">
+
+              </div>
+
               <div className="text-red-warning uppercase text-center text-[18px] my-6 underline hover:cursor-pointer">
                 No thanks, I don’t want this.
               </div>
