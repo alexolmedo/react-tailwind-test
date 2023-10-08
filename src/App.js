@@ -122,7 +122,7 @@ function App() {
                   </div>
                 </div>
 
-                <div>
+                <div className="mt-3">
                   “As soon as the Clarifions arrived I put one in my bedroom. This was late in the afternoon. When I
                   went to the bedroom in the evening it smelled clean. When I went to bed I felt I could breathe better.
                   Wonderful.”
@@ -176,7 +176,7 @@ function App() {
 
               </div>
 
-              <div className="mt-8">
+              <div className="mt-6">
                 <div className="flex items-center">
                   <img className="h-[22px]" src="./images/tick-mark.png" alt=""/>
                   <div className="ml-4">
@@ -199,7 +199,7 @@ function App() {
                 </div>
               </div>
 
-              <div className="rounded-xl bg-light-blue-background flex p-4 my-8">
+              <div className="rounded-xl bg-light-blue-background flex p-4 my-6">
                 <img className="h-[24px]" src="./images/icon-percentage.png" alt=""/>
                 <div className="ml-4">
                   Save <span className="text-blue-highlight">53%</span> and get <span className="text-blue-highlight">6 extra Clarifision</span> for
@@ -208,18 +208,31 @@ function App() {
               </div>
 
               <div
-                className="bg-green-claim rounded-full h-[59px] flex items-center justify-center text-white uppercase hover:cursor-pointer">
+                className="bg-green-claim rounded-full h-[59px] flex items-center justify-center text-white uppercase hover:cursor-pointer hover:opacity-90">
                 <div className="font-bold text-[20px]">
                   Yes - Claim my discount
                 </div>
                 <img className="ml-3 w-[16px]" src="./images/icon-arrow.svg" alt=""/>
               </div>
 
-              <div className="tex">
-
+              <div className="mt-4 border rounded flex justify-between items-center h-[33px] text-[12px] px-4">
+                <div>
+                  Free shipping
+                </div>
+                <img className="h-[16px] mx-4" src="./images/vertical-line-gray.png" alt=""/>
+                <div className="flex items-center">
+                  <img className="h-[12px]" src="./images/icon-lock-gray.png" alt=""/>
+                  <div className="pl-3">
+                    Secure 256-bit SSL encryption.
+                  </div>
+                </div>
+                <img className="h-[16px] mx-4" src="./images/vertical-line-gray.png" alt=""/>
+                <div>
+                  <img className="h-[14px]" src="./images/icon-cards.png" alt=""/>
+                </div>
               </div>
 
-              <div className="text-red-warning uppercase text-center text-[18px] my-6 underline hover:cursor-pointer">
+              <div className="text-red-warning uppercase text-center text-[18px] my-5 underline hover:cursor-pointer">
                 No thanks, I don’t want this.
               </div>
 
