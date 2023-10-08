@@ -228,14 +228,14 @@ function App() {
                   <div>
                     Free shipping
                   </div>
-                  <img className="h-[16px] mx-4" src="./images/vertical-line-gray.png" alt=""/>
+                  <img className="h-[16px]" src="./images/vertical-line-gray.png" alt=""/>
                   <div className="flex items-center">
                     <img className="h-[12px]" src="./images/icon-lock-gray.png" alt=""/>
                     <div className="pl-3">
                       Secure 256-bit SSL encryption.
                     </div>
                   </div>
-                  <img className="h-[16px] mx-4" src="./images/vertical-line-gray.png" alt=""/>
+                  <img className="h-[16px]" src="./images/vertical-line-gray.png" alt=""/>
                   <div>
                     <img className="h-[14px]" src="./images/icon-cards.png" alt=""/>
                   </div>
