@@ -164,7 +164,7 @@ function App() {
                       <img className="h-[12px] lg:h-[18px]" src="./images/icon-stars.png" alt=""/>
                     </div>
 
-                    <div className="flex items-center py-2">
+                    <div className="flex items-center pt-2">
                       <img className="h-[12px] lg:h-[16px] hover:cursor-pointer" src="./images/radio-button.png"
                            alt=""/>
                       <div className="ml-4 text-black-stock text-[12px] lg:text-[16px]">
@@ -172,7 +172,7 @@ function App() {
                       </div>
                     </div>
 
-                    <div className="text-black-copy hidden lg:block">
+                    <div className="text-black-copy hidden lg:block pt-2">
                       Simply plug a Clarifion into any standard outlet and replace bulky, expensive air purifiers with a
                       simple.
                     </div>
@@ -241,14 +241,15 @@ function App() {
                   </div>
                 </div>
 
-                <div className="text-red-warning uppercase text-center text-[18px] my-5 underline hover:cursor-pointer">
+                <div
+                  className="text-red-warning uppercase text-center text-[12px] lg:text-[18px] my-5 underline hover:cursor-pointer">
                   No thanks, I don’t want this.
                 </div>
 
                 <div className="flex items-center">
                   <img src="./images/icon-satisfaction-guarantee.png" alt="Satisfaction 100% Guarantee"
-                       className="h-[88px]"/>
-                  <div className="pl-6">
+                       className="h-[48px] lg:h-[88px]"/>
+                  <div className="pl-6 text-[12px] lg:text-[16px]">
                     If you are not completely thrilled with your Clarifion - We have a <span className="font-bold">30 day satisfaction guarantee</span>.
                     Please refer to our return policy at the bottom of the page for more details. Happy Shopping!
                   </div>
@@ -263,9 +264,9 @@ function App() {
 
       </div>
 
-      <footer className="bg-gray-custom text-white h-[88px]">
-        <div className="max-w-screen-xl mx-auto flex justify-between items-center h-full">
-          <div className="flex flex-wrap items-center">
+      <footer className="bg-gray-custom text-white h-[100px] lg:h-[88px] text-[12px] lg:text-[16px] py-3 lg:py-0">
+        <div className="max-w-screen-xl mx-auto flex flex-wrap justify-between items-center h-full">
+          <div className="flex w-full lg:w-auto items-center justify-center">
             <div>
               Copyright (c) 2023
             </div>
@@ -274,7 +275,7 @@ function App() {
               Clarifionsupport@clarifion.com
             </div>
           </div>
-          <div className="flex w-full lg:w-auto items-center">
+          <div className="flex w-full lg:w-auto items-center justify-center">
             <img className="h-[16px]" src="./images/icon-encryption.png" alt=""/>
             <div className="ml-3">
               Secure 256-bit SSL encryption.
