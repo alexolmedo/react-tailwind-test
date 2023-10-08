@@ -224,19 +224,28 @@ function App() {
                   <img className="ml-3 w-[16px]" src="./images/icon-arrow.svg" alt=""/>
                 </div>
 
-                <div className="mt-4 border rounded flex justify-between items-center h-[33px] text-[12px] px-4">
+                <div
+                  className="mt-4 border rounded flex flex-wrap justify-evenly lg:justify-between items-center h-[71px] lg:h-[33px] text-[12px] px-4 py-1 lg:py-0">
                   <div>
                     Free shipping
                   </div>
+
                   <img className="h-[16px]" src="./images/vertical-line-gray.png" alt=""/>
+
                   <div className="flex items-center">
                     <img className="h-[12px]" src="./images/icon-lock-gray.png" alt=""/>
                     <div className="pl-3">
                       Secure 256-bit SSL encryption.
                     </div>
                   </div>
-                  <img className="h-[16px]" src="./images/vertical-line-gray.png" alt=""/>
-                  <div>
+
+                  <img className="h-[16px] hidden lg:block" src="./images/vertical-line-gray.png" alt=""/>
+
+                  <div className="flex w-full lg:hidden">
+                    <img className="w-full" src="./images/horizontal-line-gray.png" alt=""/>
+                  </div>
+
+                  <div className="flex w-full lg:w-auto justify-center">
                     <img className="h-[14px]" src="./images/icon-cards.png" alt=""/>
                   </div>
                 </div>
