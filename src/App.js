@@ -56,7 +56,7 @@ function App() {
           </div>
         </div>
 
-        <div className="pt-8 px-4">
+        <div className="pt-8 px-6">
 
           <div className="text-center capitalize">
             <h1 className="text-[32px] lg:text-[48px]">
@@ -99,9 +99,9 @@ function App() {
 
           </div>
 
-          <div className="bg-gray-background p-10 rounded-xl">
-            <div className="flex">
-              <div className="w-1 lg:w-1/2">
+          <div className="bg-gray-background lg:p-10 rounded-xl">
+            <div className="flex flex-wrap">
+              <div className="hidden lg:block w-full lg:w-1/2">
                 <div>
                   <img src="./images/satisfaction_guarantee.png" alt=""/>
                 </div>
@@ -134,44 +134,45 @@ function App() {
 
               </div>
 
-              <div className="w-1 lg:w-1/2 pl-10">
+              <div className="w-full lg:w-1/2 lg:pl-10">
 
-                <div className="text-[32px]">
+                <div className="text-center lg:text-left text-[24px] lg:text-[32px]">
                   <span className="text-blue-highlight">ONE TIME ONLY</span> special price for 6 extra Clarifion for
                   only <span className="text-blue-highlight">$14 each</span> ($84.00 total!)
                 </div>
 
                 <div className="flex mt-5 items-center">
-                  <img className="h-[134px]" src="./images/icon-clarifion-air-purifier.png" alt=""/>
+                  <img className=" h-[80px] lg:h-[134px]" src="./images/icon-clarifion-air-purifier.png" alt=""/>
 
                   <div className="grow pl-6">
 
                     <div className="flex justify-between items-center pb-1">
-                      <div className="text-[20px]">
+                      <div className="text-[14px] lg:text-[20px]">
                         Clarifion Air Ionizer
                       </div>
                       <div className="flex items-center">
-                      <span className="text-[16px] text-gray-crossed line-through mr-2">
+                      <span className="text-[10px] lg:text-[16px] text-gray-crossed line-through mr-2">
                         $180
                       </span>
-                        <span className="text-[22px] text-blue-highlight font-semibold">
+                        <span className="text-[14px] lg:text-[22px] text-blue-highlight font-semibold">
                         $84
                       </span>
                       </div>
                     </div>
 
                     <div>
-                      <img className="h-[18px]" src="./images/icon-stars.png" alt=""/>
+                      <img className="h-[12px] lg:h-[18px]" src="./images/icon-stars.png" alt=""/>
                     </div>
 
                     <div className="flex items-center py-2">
-                      <img className="h-[16px] hover:cursor-pointer" src="./images/radio-button.png" alt=""/>
-                      <div className="ml-4 text-black-stock">
+                      <img className="h-[12px] lg:h-[16px] hover:cursor-pointer" src="./images/radio-button.png"
+                           alt=""/>
+                      <div className="ml-4 text-black-stock text-[12px] lg:text-[16px]">
                         12 left in Stock
                       </div>
                     </div>
 
-                    <div className="text-black-copy">
+                    <div className="text-black-copy hidden lg:block">
                       Simply plug a Clarifion into any standard outlet and replace bulky, expensive air purifiers with a
                       simple.
                     </div>
@@ -179,40 +180,45 @@ function App() {
 
                 </div>
 
-                <div className="mt-6">
+                <div className="text-black-copy text-center text-[12px] pt-4 lg:hidden">
+                  Simply plug a Clarifion into any standard outlet and replace bulky, expensive air purifiers with a
+                  simple.
+                </div>
+
+                <div className="mt-6 text-[12px] lg:text-[16px]">
                   <div className="flex items-center">
-                    <img className="h-[22px]" src="./images/tick-mark.png" alt=""/>
+                    <img className="h-[16px] lg:h-[22px]" src="./images/tick-mark.png" alt=""/>
                     <div className="ml-4">
                       Negative Ion Technology may <span className="font-bold">help with allergens</span>
                     </div>
                   </div>
 
                   <div className="flex items-center py-5">
-                    <img className="h-[22px]" src="./images/tick-mark.png" alt=""/>
+                    <img className="h-[16px] lg:h-[22px]" src="./images/tick-mark.png" alt=""/>
                     <div className="ml-4">
                       Designed for <span className="font-bold">air rejuvenation</span>
                     </div>
                   </div>
 
                   <div className="flex items-center">
-                    <img className="h-[22px]" src="./images/tick-mark.png" alt=""/>
+                    <img className="h-[16px] lg:h-[22px]" src="./images/tick-mark.png" alt=""/>
                     <div className="ml-4">
                       <span className="font-bold">Perfect for every room</span> in all types of places.
                     </div>
                   </div>
                 </div>
 
-                <div className="rounded-xl bg-light-blue-background flex p-4 my-6">
-                  <img className="h-[24px]" src="./images/icon-percentage.png" alt=""/>
-                  <div className="ml-4">
+                <div className="rounded-xl bg-light-blue-background flex p-4 my-6 items-center">
+                  <img className="h-[24px] lg:h-[32px]" src="./images/icon-percentage.png" alt=""/>
+                  <div className="ml-4 text-[14px] lg:text-[16px]">
                     Save <span className="text-blue-highlight">53%</span> and get <span className="text-blue-highlight">6 extra Clarifision</span> for
                     only <span className="text-blue-highlight">$14 Each</span>.
                   </div>
                 </div>
 
                 <div
-                  className="bg-green-claim rounded-full h-[59px] flex items-center justify-center text-white uppercase hover:cursor-pointer hover:opacity-90">
-                  <div className="font-bold text-[20px]">
+                  className="bg-green-claim rounded-full h-[51px] lg:h-[59px] flex items-center justify-center text-white uppercase hover:cursor-pointer hover:opacity-90">
+                  <div className="font-bold text-[14px] lg:text-[20px]">
                     Yes - Claim my discount
                   </div>
                   <img className="ml-3 w-[16px]" src="./images/icon-arrow.svg" alt=""/>
@@ -259,7 +265,7 @@ function App() {
 
       <footer className="bg-gray-custom text-white h-[88px]">
         <div className="max-w-screen-xl mx-auto flex justify-between items-center h-full">
-          <div className="flex items-center">
+          <div className="flex flex-wrap items-center">
             <div>
               Copyright (c) 2023
             </div>
@@ -268,7 +274,7 @@ function App() {
               Clarifionsupport@clarifion.com
             </div>
           </div>
-          <div className="flex items-center">
+          <div className="flex w-full lg:w-auto items-center">
             <img className="h-[16px]" src="./images/icon-encryption.png" alt=""/>
             <div className="ml-3">
               Secure 256-bit SSL encryption.
