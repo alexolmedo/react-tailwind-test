@@ -44,7 +44,7 @@ function App() {
         </div>
       </nav>
 
-      <div className="max-w-screen-xl mx-auto bg-gray-background">
+      <div className="max-w-screen-xl mx-auto bg-gray-background lg:bg-white">
 
         <div className="flex justify-between bg-white p-5">
           <div>
@@ -56,7 +56,7 @@ function App() {
           </div>
         </div>
 
-        <div className="pt-8 px-6">
+        <div className="p-8 px-6 lg:pt-0 lg:pb-12 lg:px-0">
 
           <div className="text-center capitalize">
             <h1 className="text-[32px] lg:text-[48px]">
